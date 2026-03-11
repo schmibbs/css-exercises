@@ -1,1 +1,26 @@
 /* Add CSS Styling */
+
+.odd-num {
+    /* Hex is a shorthand way to express RGB colors. 00 is the minimum and FF(255) is the max */
+    background-color: #ffddf4;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.adjust-font-size {
+    font-size: 24px;
+}
+
+#numbah-2 {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+#numbah-4 {
+    /* HSL = 
+        Hue: Base color that is a clockwise degree measurement. Red = 0/360, Green = 120, Blue = 240
+        Saturation: How intense the color is. 100 is max, 0 is grey
+        Lightness: How bright the color is. 100 is max, 0 is black
+    */
+    background-color: hsl(120, 100%, 50%);
+    font-weight: bold;
+}
